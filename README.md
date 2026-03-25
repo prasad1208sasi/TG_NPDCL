@@ -72,30 +72,39 @@ Units-Prediction-App/
 git clone https://github.com/your-username/units-prediction-app.git
 cd units-prediction-app
 pip install -r requirements.txt
+```
 
 ▶️ Run the Application
+```bash
 streamlit run app.py
+```
 🧪 Model Training
+```bash
 python model_training.py
-🖥️ App Inputs
-Circle
-Division
-SubDivision
-Section
-Load
-Total Services
-Billed Services
-📈 Output
-✅ Predicted Units (Electricity consumption)
-🛠️ Tech Stack
-Python 🐍
-Pandas
-NumPy
-Scikit-learn
-Streamlit
-Joblib
-📌 Future Improvements
-📊 Add model evaluation metrics (R², RMSE)
-🌐 Deploy on cloud (Streamlit Cloud / AWS)
-📉 Add visualization dashboard
-🤖 Try advanced models (XGBoost, LightGBM)
+```
+
+---
+# 🖥️ App Inputs
+- Circle
+- Division
+- SubDivision
+- Section
+- Load
+- Total Services
+- Billed Services
+---
+# 📈 Output
+# ✅ Predicted Units (Electricity consumption)
+# 🛠️ Tech Stack
+- Python 🐍
+- Pandas
+- NumPy
+- Scikit-learn
+- Streamlit
+- Joblib
+---
+# 📌 Future Improvements
+- 📊 Add model evaluation metrics (R², RMSE)
+- 🌐 Deploy on cloud (Streamlit Cloud / AWS)
+- 📉 Add visualization dashboard
+- 🤖 Try advanced models (XGBoost, LightGBM)
