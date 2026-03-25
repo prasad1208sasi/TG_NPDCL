@@ -45,26 +45,35 @@ max_features = sqrt
 └── README.md              # Project documentation
 ⚙️ Installation
 1️⃣ Clone the repository
+---
 git clone https://github.com/your-username/units-prediction-app.git
+---
 cd units-prediction-app
 2️⃣ Install dependencies
+---
 pip install -r requirements.txt
+---
 ▶️ Run the Application
+---
 streamlit run app.py
+---
 🧪 Model Training
 
 To retrain the model:
+----
 
 python model_training.py
+---
 
 This will:
 
 Train the pipeline
 Save model as rf_units_model.pkl
+
+
 🖥️ App Inputs
 
 Users need to provide:
-
 Circle
 Division
 SubDivision
